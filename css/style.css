@@ -146,9 +146,10 @@ letter-spacing: normal;
 line-height: normal;
 text-align: left;
 color: #ffffff;
+
 }
 
-.nav_item:hover {
+.header_nav_item:hover {
 color: #998675;
 }
 
@@ -160,13 +161,13 @@ align-items: center;
 
 }
 
-.shopping_cart {
+.shopping_cart_icon {
 fill: #fff;
 padding-right: 20px;
 
 }
 
-.shopping_cart:hover {
+.shopping_cart_icon:hover {
 fill: #998675;
 }
 
