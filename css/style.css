@@ -1202,7 +1202,7 @@ transform: rotate(360deg) scale(1.2);
 
 .footer {
 max-width: 1920px;
-min-width: 508px;
+
 background-color: #191919;
 margin: 0 auto;
 display: flex;
@@ -1641,6 +1641,7 @@ display: none;
 
   .ham {
     display: block;
+    margin-left: 70px;
     background-color: transparent;
     border: transparent;
     cursor: pointer;
@@ -1818,7 +1819,7 @@ display: none;
 
 .ham {
 display: block;
-margin-left: 200px;
+margin-left: 50px;
 background-color: transparent;
 border: transparent;
 cursor: pointer;
