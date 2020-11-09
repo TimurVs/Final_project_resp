@@ -1933,6 +1933,9 @@ width: 375px;
 
 }
 
+.ideas {
+  display: none;
+}
 
 .features_list_container {
 width: 375px;
