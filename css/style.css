@@ -1,40 +1,40 @@
 @font-face {
 font-family: 'Montserrat';
-src: url(../Fonts/Montserrat/Montserrat-Light.ttf);
+src: url(../fonts/Montserrat/Montserrat-Light.ttf);
 font-weight: 300;
 font-style: normal;
 }
 
 @font-face {
 font-family: 'Raleway';
-src: url(../Fonts/Raleway/static/Raleway-Regular.ttf);
+src: url(../fonts/Raleway/static/Raleway-Regular.ttf);
 font-weight: 400;
 font-style: normal; 
 }
 
 @font-face {
 font-family: 'Raleway';
-src: url(../Fonts/Raleway/static/Raleway-Medium.ttf);
+src: url(../fonts/Raleway/static/Raleway-Medium.ttf);
 font-weight: 500;
 font-style: normal; 
 }
 
 @font-face {
 font-family: 'Raleway';
-src: url(../Fonts/Raleway/static/Raleway-SemiBold.ttf);
+src: url(../fonts/Raleway/static/Raleway-SemiBold.ttf);
 font-weight: 600;
 font-style: normal; 
 }
 
 @font-face {
 font-family: 'Raleway';
-src: url(../Fonts/Raleway/static/Raleway-ExtraBold.ttf);
+src: url(../fonts/Raleway/static/Raleway-ExtraBold.ttf);
 font-weight: 800;
 font-style: normal; 
 }
 
 h1 {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 color: #fff;
 font-size: 52px;
 font-weight: 400;
@@ -42,7 +42,7 @@ font-weight: 400;
 }
 
 h2 {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 color: #555;
 font-size: 30px;
 font-weight: 400;
@@ -51,7 +51,7 @@ margin: 0;
 }
 
 h3 {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-size: 22px;
 font-weight: 400;
 color: #555; 
@@ -59,7 +59,7 @@ color: #555;
 
 
 p {
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 text-align: center;
 color: #8c8c8c;
 font-size: 16px;
@@ -123,7 +123,7 @@ fill: #998675;
 
 .logo_txt {
 color: #ffffff;
-font-family: Raleway;
+font-family: 'Raleway', sans-serif;
 font-size: 34px;
 }
 
@@ -138,7 +138,7 @@ flex-wrap: wrap;
 .header_nav_item {
 text-decoration: none;
 padding-left: 28px;
-font-family: Montserrat;
+font-family: 'Montserrat', sans-serif;
 font-size: 14px;
 font-weight: 300;
 font-style: normal;
@@ -146,9 +146,10 @@ letter-spacing: normal;
 line-height: normal;
 text-align: left;
 color: #ffffff;
+
 }
 
-.nav_item:hover {
+.header_nav_item:hover {
 color: #998675;
 }
 
@@ -160,13 +161,13 @@ align-items: center;
 
 }
 
-.shopping_cart {
+.shopping_cart_icon {
 fill: #fff;
 padding-right: 20px;
 
 }
 
-.shopping_cart:hover {
+.shopping_cart_icon:hover {
 fill: #998675;
 }
 
@@ -250,7 +251,7 @@ text-align: center;
 }
 
 .slider_title {
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 56px;
 margin: 0 auto;
@@ -259,7 +260,7 @@ text-align: center;
 }
 
 .slider_bottom_text {
-font-family: 'Montserrat';
+font-family: 'Montserrat', sans-serif;
 font-weight: 300;
 font-size: 16px;
 margin-bottom: 52px;
@@ -289,7 +290,7 @@ text-indent:0;
 border:1px solid #b4a696;
 display:inline-block;
 color:#ffffff;
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-size: 14px;
 font-weight: 800;
 line-height: 50px;
@@ -429,7 +430,7 @@ font-weight: 400;
  }
 
  .ideas_text {
-font-family: 'Montserrat'; 
+font-family: 'Montserrat', sans-serif; 
 font-size: 16px;
 font-weight: 300;
 margin-top: 20px;
@@ -511,7 +512,7 @@ margin: 0 auto;
 
 .purchase_text {
 color: #615855;
-font-family: Montserrat;
+font-family: 'Montserrat', sans-serif;
 font-size: 18px;
 font-weight: 300;
 }
@@ -538,7 +539,7 @@ text-indent:0;
 border:1px solid #b4a696;
 display:inline-block;
 color:#ffffff;
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-size: 14px;
 font-weight: 800;
 line-height: 50px;
@@ -609,10 +610,11 @@ border-radius: 3px;
 border: 1px solid #ebebeb;;
 background-color: #fff;
 padding: 10px;
-font-family: "Montserrat";
+font-family: 'Montserrat', sans-serif;
 font-size: 14px;
 color: #8c8c8c;
 margin: 10px;
+
 
 }
 
@@ -661,14 +663,14 @@ padding: 5px 0 0 10px;
 
 .preview_title {
 color: #c7b299;
-font-family: Raleway;
+font-family: 'Raleway', sans-serif;
 font-size: 20px;
 font-weight: 500;
 }
 
 .preview_text {
 color: #d1d1d1;
-font-family: Montserrat;
+font-family: 'Montserrat', sans-serif;
 font-size: 14px;
 font-weight: 300;
 
@@ -791,7 +793,7 @@ left: 25%;
 
 
 .video_text_title {
-font-family: Raleway;
+font-family: 'Raleway', sans-serif;
 color: #fff;
 font-size: 30px;
 font-weight: 500;
@@ -879,7 +881,7 @@ padding: 0;
 }
 
 .mobile_devices_list_item {
-font-family: Montserrat;
+font-family: 'Montserrat', sans-serif;
 font-size: 16px;
 font-weight: 300;
 line-height: 32px;
@@ -961,7 +963,7 @@ display: inline-block;
 }
 
 .numbers_number {
-font-family: "Montserrat";
+font-family: 'Montserrat', sans-serif;
 font-size: 48px;
 font-weight: 400;
 color: #fff;
@@ -970,7 +972,7 @@ color: #fff;
 
 .numbers_text {
 color: #c7b299;
-font-family: Montserrat;
+font-family: 'Montserrat', sans-serif;
 font-size: 14px;
 font-weight: 300;
 text-transform: uppercase;
@@ -1012,28 +1014,28 @@ align-items: center;
 
 }
 
-.posts_title {
+.posts_section_title {
 color: #555555;
-font-family: "Raleway";
+font-family: 'Raleway', sans-serif;
 font-size: 30px;
 font-weight: 400;
 margin-bottom: 20px;
 
 }
 
-.posts_text {
+.posts_section_text {
 color: #8c8c8c;
-font-family: "Montserrat";
+font-family: 'Montserrat', sans-serif;
 font-size: 16px;
 font-weight: 300;
 margin-bottom: 25px;
-
+text-align: center;
 }
 
 
 .posts_preview {
-width: 370px;
-height: 340px;
+max-width: 370px;
+min-height: 340px;
 margin: 0;
 display: flex;
 flex-direction: column;
@@ -1049,7 +1051,7 @@ padding: 5px 0 0 10px;
 
 .posts_preview_title {
 color: #555555;
-font-family: Raleway;
+font-family: 'Raleway', sans-serif;
 font-size: 20px;
 font-weight: 500;
 margin-bottom: 15px;
@@ -1058,7 +1060,7 @@ margin-bottom: 15px;
 .posts_preview_text {
 text-align: left;
 color: #8c8c8c;
-font-family: Montserrat;
+font-family: 'Montserrat', sans-serif;
 font-size: 14px;
 font-weight: 300;
 margin-bottom: 20px;
@@ -1069,7 +1071,7 @@ margin-bottom: 20px;
 min-width: 30px;
 text-decoration: none;
 color: #c7b299;
-font-family: Montserrat;
+font-family: 'Montserrat', sans-serif;
 font-size: 14px;
 font-weight: 300;
 position: relative;
@@ -1217,7 +1219,7 @@ list-style: none;
 
 .footer_logo_txt {
 color: #ffffff;
-font-family: Raleway;
+font-family: 'Raleway', sans-serif;
 font-size: 34px;
 font-weight: 400;
 
@@ -1245,7 +1247,7 @@ flex-direction: column;
 
 .summary_text_main {
 color: #555555;
-font-family: Montserrat;
+font-family: 'Montserrat', sans-serif;
 font-size: 14px;
 font-weight: 300;
 text-align: left;
@@ -1268,7 +1270,7 @@ align-items: center;
 
 .footer_recent_posts_title, .twitter_recent_posts_title, .footer_widgets_title {
 color: #ffffff;
-font-family: 'Raleway';
+font-family: 'Raleway', sans-serif;
 font-size: 24px;
 font-weight: 700;
 
@@ -1276,7 +1278,7 @@ font-weight: 700;
 
 .footer_recent_posts_date {
 color: #363636;
-font-family: Montserrat;
+font-family: 'Montserrat', sans-serif;
 font-size: 12px;
 font-weight: 300;
 
@@ -1284,7 +1286,7 @@ font-weight: 300;
 
 .footer_recent_posts_text {
 color: #555555;
-font-family: Montserrat;
+font-family: 'Montserrat', sans-serif;
 font-size: 14px;
 font-weight: 300;
 text-align: left;
@@ -1301,7 +1303,7 @@ align-items: center;
 
 .twitter_recent_posts_text {
 color: #555555;
-font-family: Montserrat;
+font-family: 'Montserrat', sans-serif;
 font-size: 14px;
 font-weight: 300;
 text-align: left;
@@ -1370,7 +1372,7 @@ color: #fff;
 min-width: 30px;
 text-decoration: none;
 color: #c7b299;
-font-family: Montserrat;
+font-family: 'Montserrat', sans-serif;
 font-size: 14px;
 font-weight: 300;
 position: relative;
@@ -1755,6 +1757,7 @@ display: none;
     width: 375px;
     
     }
+
     
     
     .features_list_container {
@@ -1816,6 +1819,7 @@ display: none;
 
 
 @media screen and (max-width: 991px) {
+
 
 .ham {
 display: block;
@@ -1933,6 +1937,9 @@ width: 375px;
 
 }
 
+.ideas {
+  display: none;
+}
 
 .features_list_container {
 width: 375px;
@@ -1947,6 +1954,10 @@ padding: 0;
 margin-top: 5px;
 margin-bottom: 15px;
 
+}
+
+.purchase_btn {
+  font-size: 8px;
 }
 
 .ideas {
